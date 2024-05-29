@@ -13,7 +13,6 @@ import 'package:primeiro_app/pages/material_banner/meterial_banner.dart';
 import 'package:primeiro_app/pages/media_query/media_query_page.dart';
 import 'package:primeiro_app/pages/page-imc/page_imc.dart';
 import 'package:primeiro_app/pages/row_columns/row_columns_page.dart';
-import 'package:device_preview/device_preview.dart';
 import 'package:primeiro_app/pages/scrolls/list_single_view_page.dart';
 import 'package:primeiro_app/pages/scrolls/single_child_scrolls_view.dart';
 import 'package:primeiro_app/pages/snake-bar/snake_bar_page.dart';

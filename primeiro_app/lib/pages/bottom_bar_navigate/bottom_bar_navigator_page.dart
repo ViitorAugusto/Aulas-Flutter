@@ -63,6 +63,7 @@ class _BottomBarNavigatorPageState extends State<BottomBarNavigatorPage> {
         selectedItemColor: Paletas.primaria,
         unselectedItemColor: Colors.grey,
       ),
+      
       body: PageView(
         controller: _pageController,
         onPageChanged: (index) {

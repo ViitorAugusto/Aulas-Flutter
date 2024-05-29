@@ -62,7 +62,6 @@ class ButtomRotateText extends StatelessWidget {
                   style: TextButton.styleFrom(
                     foregroundColor: Colors.deepPurple,
                     backgroundColor: Colors.white,
-                    disabledForegroundColor: Colors.grey.withOpacity(0.38),
                     shadowColor: Colors.red,
                     elevation: 5,
                     textStyle: const TextStyle(

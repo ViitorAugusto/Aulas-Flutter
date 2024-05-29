@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class HomePageStateFull extends StatefulWidget {
-  
   @override
   State<StatefulWidget> createState() {
     return _HomePageStateFullState();
@@ -11,37 +10,36 @@ class HomePageStateFull extends StatefulWidget {
 class _HomePageStateFullState extends State<HomePageStateFull> {
   String texto = 'Hello World!';
 
-
-  @override 
+  @override
   void initState() {
     super.initState();
     print('initState');
   }
 
-@override 
-void didChangeDependencies() {
-  print('didChangeDependencies');
-  super.didChangeDependencies();
-}
+  @override
+  void didChangeDependencies() {
+    print('didChangeDependencies');
+    super.didChangeDependencies();
+  }
 
   @override
-Widget build(BuildContext context) {
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Home Page StateFull '),
+        title: const Text('Home Page StateFull 2222'),
       ),
       body: Center(
         child: Column(
           children: [
-              Text(texto),
-              TextButton(
-                onPressed:() {
-                  setState(() {
-                    texto = 'Hello World! Clicado';
-                  });
-                  }, 
-                  child: const Text('Clique aqui'),
-                  ),
+            Text(texto),
+            TextButton(
+              onPressed: () {
+                setState(() {
+                  texto = 'Hello World! Clicado';
+                });
+              },
+              child: const Text('Clique aqui'),
+            ),
           ],
         ),
       ),
